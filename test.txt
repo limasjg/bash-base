@@ -1,0 +1,5 @@
+ 1080  basename $FILE .txt
+ 1081  history
+ 1082  ls
+ 1083  history | tail -5
+ 1084  history | tail -5 >> test.txt
