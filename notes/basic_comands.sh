@@ -19,8 +19,9 @@
 # touch [file]      # Create empty file or update timestamp
 # cp [src] [dst]    # Copy files or directories
 # mv [src] [dst]    # Move or rename files/directories
-# find [path] -name "file"  # Search for files recursively
+# find [path] -name # "file"  # Search for files recursively
 # tree              # Display directory tree (requires installation)
+# cut [opition]     #  Print selected parts of lines from each FILE to standard output.
 
 # --- Viewing and Editing Files ---
 # cat [file]        # Show file contents
@@ -76,6 +77,7 @@
 # $?                   # Exit status of last command
 # dirname [var]        # Show the variable path
 # basename  [var]      # Show the file name in a path
+# bc 
 
 # --- Redirection and Pipes ---
 # >                    # Redirect output (overwrite)
@@ -84,6 +86,7 @@
 # |                    # Pipe output to another command
 # command1 && command2 # Run second command only if first succeeds
 # command1 || command2 # Run second command only if first fails
+# \                    # Use to break line and continue comand
 
 # --- Package Management (Debian/Ubuntu) ---
 # sudo apt update         # Update package list
