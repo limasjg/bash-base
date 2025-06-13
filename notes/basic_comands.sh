@@ -56,6 +56,7 @@
 # hostname             # Show system hostname
 # date                 # Show current date and time
 # time command         # Measure execution time of command
+# sleep [time]         # terminal waits for time flag
 
 # --- Networking ---
 # ping [host]          # Check network connectivity
@@ -77,7 +78,7 @@
 # $?                   # Exit status of last command
 # dirname [var]        # Show the variable path
 # basename  [var]      # Show the file name in a path
-# bc 
+# seq [ini, step, end] # Show a seq in terminal
 
 # --- Redirection and Pipes ---
 # >                    # Redirect output (overwrite)
