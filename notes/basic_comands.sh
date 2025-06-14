@@ -33,7 +33,11 @@
 # vim [file]        # Advanced terminal editor
 # echo "text"       # Print text
 # echo "abc" > file # Write to file (overwrite)
-# echo "abc" >> file # Append to file
+# echo "abc" >> file# Append to file
+# wc                # Show informations of the file
+# tee               # Create a file of logs
+# sort              # Organize in alphabetical order
+# xargs             # Process a lot of commands
 
 # --- Permissions and Users ---
 # chmod +x script.sh   # Make script executable
